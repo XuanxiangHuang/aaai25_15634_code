@@ -1,0 +1,20 @@
+// attributes domain: bottom => top
+// target; domain: [0, 1, 2, 3, 4, 5, 6, 7, 8]; domain size: 9; var: 1
+// x4; domain: [0, 1]; domain size: 2; var: 2
+// x3; domain: [0, 1]; domain size: 2; var: 3
+// x2; domain: [0, 1]; domain size: 2; var: 4
+// x1; domain: [0, 1]; domain size: 2; var: 5
+(Forest Addr: 7fb1307047b0, transparent: F, node: 7, level: 5, extensible: 0)
+MTMDD rooted at this node:
+Level: 5 Var: 5
+  node: 7 down: (0:6, 1:2)
+Level: 4 Var: 4 
+  node: 6 down: (0:5, 1:2)
+Level: 3 Var: 3 
+  node: 5 down: (0:4, 1:1)
+Level: 2 Var: 2 
+  node: 4 down: (0:3, 1:1)
+Level: 1 Var: 1 
+  node: 1 down: (0:T)
+  node: 2 down: (1:T)
+  node: 3 down: (8:T)
